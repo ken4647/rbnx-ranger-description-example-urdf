@@ -8,7 +8,7 @@ package:
   # build_script: rbnx/build.sh # by default
 
 capabilities:
-  - name: cap::description:urdf  # 标准能力名称 (如 cap::grasp.move)
+  - name: cap::description.urdf  # 标准能力名称 (如 cap::grasp.move)
     impl_id: "ranger_exmaple"         # 可选：实现标识符 (如 "algo01", "algo02")。如果省略，默认为 "default"
     start_script: rbnx/start_desc.sh    # 启动脚本路径 (相对于 package 根目录，如 "rbnx/start_cap.sh")
     stop_script: rbnx/stop_desc.sh     # 停止脚本路径 (相对于 package 根目录，如 "rbnx/stop_cap.sh")
